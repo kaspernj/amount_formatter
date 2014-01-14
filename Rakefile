@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "amount_formatter"
   gem.homepage = "http://github.com/kaspernj/amount_formatter"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Amount formatting for Ruby.}
+  gem.description = %Q{Amount formatting for Ruby.}
   gem.email = "k@spernj.org"
   gem.authors = ["Kasper Johansen"]
   # dependencies defined in Gemfile
