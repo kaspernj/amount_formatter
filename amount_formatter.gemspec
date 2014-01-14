@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["Kasper Johansen"]
   s.date = "2014-01-14"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Amount formatting for Ruby."
   s.email = "k@spernj.org"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "amount_formatter.gemspec",
     "lib/amount_formatter.rb",
     "spec/amount_formatter_spec.rb",
     "spec/spec_helper.rb"
@@ -34,7 +35,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/kaspernj/amount_formatter"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.2.1"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Amount formatting for Ruby."
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
