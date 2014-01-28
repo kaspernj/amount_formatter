@@ -5,7 +5,7 @@ class AmountFormatter
   def self.format(number, args = {})
     args = FORMAT_DEFAULT_ARGS.merge(args)
     number = number.to_f unless number.is_a?(Float)
-    return sprintf("%.#{args[:precision].to_i}f", number).gsub(".", seperator) if number < 1 && number > -1
+    return sprintf("%.#{args[:precision].to_i}f", number).gsub(".", args[:seperator]) if number < 1 && number > -1
     number = sprintf("%.#{args[:precision].to_i}f", number).split(".")
     
     str = ""
