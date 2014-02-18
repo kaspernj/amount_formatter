@@ -1,11 +1,11 @@
 class AmountFormatter
-  FORMAT_DEFAULT_ARGS = {:precision => 2, :seperator => ".", :delimiter => ","}
+  FORMAT_DEFAULT_ARGS = {:precision => 2, :separator => ".", :delimiter => ","}
   
   #Returns the number as a formatted string.
   def self.format(number, args = {})
     args = FORMAT_DEFAULT_ARGS.merge(args)
     number = number.to_f unless number.is_a?(Float)
-    return sprintf("%.#{args[:precision].to_i}f", number).gsub(".", args[:seperator]) if number < 1 && number > -1
+    return sprintf("%.#{args[:precision].to_i}f", number).gsub(".", args[:separator]) if number < 1 && number > -1
     number = sprintf("%.#{args[:precision].to_i}f", number).split(".")
     
     str = ""
@@ -20,7 +20,7 @@ class AmountFormatter
     end
     
     str = str.reverse
-    str << "#{args[:seperator]}#{number[1]}" if args[:precision] > 0
+    str << "#{args[:separator]}#{number[1]}" if args[:precision] > 0
     
     return str
   end
