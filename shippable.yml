@@ -2,6 +2,6 @@ language: ruby
 rvm:
   - 2.1.2
 script:
-  - bundle exec rspec
+  - CODECLIMATE_REPO_TOKEN=393ae358748ba95f53b87c8c51b5a0d51e124eeeff335efd29c0ae770bd4a6b6 bundle exec rspec
 notifications:
    email: false
