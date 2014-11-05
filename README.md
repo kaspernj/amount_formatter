@@ -4,7 +4,28 @@
 
 # amount_formatter
 
-Description goes here.
+## Installation
+
+Add to your Gemfile and bundle:
+```ruby
+gem "amount_formatter"
+```
+
+## Usage
+
+Format amounts like this:
+```ruby
+AmountFormatter.format(1234.12, precision: 2) #=> 1,234.12
+```
+
+## I18n support
+
+Add this to an initializer:
+```ruby
+AmountFormatter.locale_engine = :i18n
+```
+
+And then use AmountFormatter as normal.
 
 ## Contributing to amount_formatter
  
