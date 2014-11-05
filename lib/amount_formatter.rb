@@ -38,7 +38,6 @@ private
     if @locale_engine == :i18n && I18n.exists?("number.format.separator")
       translation = I18n.t("number.format.separator").to_s.strip
       return translation unless translation.empty?
-      I18n.t("number.format.separator")
     end
 
     return "."
