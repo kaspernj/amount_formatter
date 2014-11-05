@@ -4,6 +4,8 @@
 
 # amount_formatter
 
+This project is supposed to offer an alternative to ActiveSupport's number_to_currency-method, as it is fataly slow for some applications, that makes heavy use of it.
+
 ## Installation
 
 Add to your Gemfile and bundle:
