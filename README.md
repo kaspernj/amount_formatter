@@ -1,6 +1,6 @@
-[![Build Status](https://api.shippable.com/projects/540e7b993479c5ea8f9ec1f8/badge?branchName=master)](https://app.shippable.com/projects/540e7b993479c5ea8f9ec1f8/builds/latest)
 [![Code Climate](https://codeclimate.com/github/kaspernj/amount_formatter/badges/gpa.svg)](https://codeclimate.com/github/kaspernj/amount_formatter)
 [![Test Coverage](https://codeclimate.com/github/kaspernj/amount_formatter/badges/coverage.svg)](https://codeclimate.com/github/kaspernj/amount_formatter)
+[![Build Status](https://img.shields.io/shippable/540e7b993479c5ea8f9ec1f8.svg)](https://app.shippable.com/projects/540e7b993479c5ea8f9ec1f8/builds/latest)
 
 # amount_formatter
 
